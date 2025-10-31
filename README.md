@@ -37,8 +37,8 @@ npm install
 ```
 node index.js
 ```
-    Saat pertama kali dijalankan, terminal akan menampilkan QR Code.
-    Scan QR tersebut menggunakan WhatsApp di ponselmu (Perangkat Tertaut).
+Saat pertama kali dijalankan, terminal akan menampilkan QR Code.
+Scan QR tersebut menggunakan WhatsApp di ponselmu (Perangkat Tertaut).
 
 ### 🧩 Contoh Balasan Otomatis
 
@@ -50,7 +50,7 @@ if (msg.includes('halo')) {
 ```
 
 🗂️ Struktur Folder
-
+```
 BOT-WA-NODE-JS/
 │
 ├── node_modules/
@@ -58,7 +58,7 @@ BOT-WA-NODE-JS/
 ├── index.js              # Script utama bot
 ├── package.json          # Informasi proyek & dependencies
 └── README.md             # Dokumentasi ini
-
+```
 💡 Catatan
 
     Bot ini tidak berjalan di grup WhatsApp, karena pesan dari grup diabaikan.
