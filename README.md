@@ -49,13 +49,14 @@ if (msg.includes('halo')) {
 }
 ```
 
-🗂️ Struktur Folder
+📁 Struktur Folder (Setelah Pertama Dijalankan)
 ```
 BOT-WA-NODE-JS/
 │
-├── node_modules/
-├── .wwebjs_auth/         # Folder autentikasi lokal (jangan dihapus)
-├── index.js              # Script utama bot
+├── node_modules/         # Folder hasil instalasi dependencies
+├── .wwebjs_auth/         # Folder autentikasi (dibuat otomatis setelah login pertama)
+│   └── session-XXXX/     # Menyimpan token login WhatsApp
+├── wa.js                 # Script utama bot
 ├── package.json          # Informasi proyek & dependencies
 └── README.md             # Dokumentasi ini
 ```
